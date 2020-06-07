@@ -1,0 +1,78 @@
+$fontsize: 20px;
+$g: grey;
+$w: white;
+$c: #eeeeee;
+$s: 1000px;
+$gg: 10%;
+$e: 400px;
+input
+{
+	padding: 10px;
+	border-radius:4px;
+	width: 5%
+}
+body
+{
+text-align: center;
+font-family: "Times New Roman", Times, serif;
+font-size: $fontsize;
+}
+fieldset {
+  margin: 20px;
+  padding: 0 10px 10px;
+  border: 1px solid #666;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #666;
+  padding-top: 10px;
+  background-color: #eeeeee;
+  color: black;
+}
+legend {
+  padding: 2px 4px;
+}
+fieldset > legend {
+  float: left;
+  margin-top: -20px;
+}
+fieldset > legend + * {
+  clear: both;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button1 {
+  background-color: #e7e7e7;
+  color: black; 
+  border: 2px solid lightblue;
+}
+
+.button1:hover {
+  background-color: #555555;
+  color: white;
+}
+nav{
+text-align: center;
+	ul{
+	list-style:none;
+	}
+	list-style{
+	display: inline-block;
+	}
+	a
+	{
+	display: block;
+	padding: 6px 12px;
+	text-decoration:underline;
+	}
+}
